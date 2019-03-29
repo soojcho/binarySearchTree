@@ -1,6 +1,9 @@
-###############################################
-# https://www.youtube.com/watch?v=f5dU3xoE6ms #
-###############################################
+########################################################
+# Exercise to get quick exposure to binary search Tree #
+# Data structure, common practices, functions          #
+# , general logic behind the design                    #
+# https://www.youtube.com/watch?v=f5dU3xoE6ms          #
+########################################################
 
 class node:
     def __init__(self, value=None):
