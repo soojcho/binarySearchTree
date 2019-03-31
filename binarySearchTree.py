@@ -42,7 +42,7 @@ class binary_search_tree:
     def _print_tree(self, cur_node):
         if cur_node!=None:
             self._print_tree(cur_node.left_child)
-            print str(cur_node.value)
+            print(str(cur_node.value))
             self._print_tree(cur_node.right_child)
 
     def height(self):
@@ -92,5 +92,5 @@ tree.insert(20)
 
 tree.print_tree()
 print("Tree height: ",tree.height())
-print tree.search(10)
-print tree.search(30)
+print(tree.search(10))
+print(tree.search(30))
